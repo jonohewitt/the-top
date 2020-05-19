@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="/_base.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <meta charset="utf-8" />
+    <title>The Top</title>
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="/assets/logo.svg" alt="The Top" />
+      </h1>
+      <form>
+        <span class="imdb">IMDb</span>
+        <span class="metascore">Metascore</span>
+        <select class="" name="">
+          <option value="imdb">IMDb score</option>
+          <option value="metascore">Metascore</option>
+          <option value="year">Year</option>
+          <option value="title">Title</option>
+          <option value="difference">Difference</option>
+        </select>
+      </form>
+    </header>
+    <main>
+      <svg></svg>
+      <script src="/assets/d3.min.js"></script>
+      <script src="/assets/data.js"></script>
+      <script src="/the-top.js"></script>
+    </main>
+  </body>
+</html>
